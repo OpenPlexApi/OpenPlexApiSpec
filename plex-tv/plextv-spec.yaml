@@ -339,6 +339,11 @@ paths:
                   type: string
                   format: password
                   example: password123
+                verificationCode:
+                  type: string
+                  x-stoplight:
+                    id: awfue25xr8odg
+                  description: Optional 2FA verification code
                 rememberMe:
                   type: boolean
                   default: false
